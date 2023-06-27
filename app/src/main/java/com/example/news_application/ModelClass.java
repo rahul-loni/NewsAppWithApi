@@ -1,5 +1,7 @@
 package com.example.news_application;
 
+import android.widget.TextView;
+
 public class ModelClass {
     private String author,title,description,url,urlToImage,publishedAt;
 
@@ -44,7 +46,7 @@ public class ModelClass {
         this.url = url;
     }
 
-    public String getUrlToImage() {
+    public int getUrlToImage() {
         return urlToImage;
     }
 
@@ -52,7 +54,7 @@ public class ModelClass {
         this.urlToImage = urlToImage;
     }
 
-    public String getPublishedAt() {
+    public TextView.BufferType getPublishedAt() {
         return publishedAt;
     }
 
